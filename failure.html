@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Failure page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body{
+                background-color: #f5f5f5;
+                padding: 50px;
+                
+
+            }
+
+            div{
+                background-color: white;
+                margin: 50px;
+                padding: 50px;
+                border-radius: 20px;
+            }
+
+            h1 {
+
+                color: red;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+
+            p{
+                color:#0B5ED7;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+                text-align: center;
+            }
+
+            button{
+                background-color: lightseagreen;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px;
+                border-radius: 5px;
+                font-size: 18px;
+                border: none;
+                margin-left: 400px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="container">
+            <h1>Error occured, signup unsuccessful</h1>
+            <p>Sorry, the signup process was unsuccessful. Please check out your details and try again</p>
+            <form action="/failure" method="post">
+                <button type="submit" name="btn"><< Back to the signup page</button>
+            </form>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
